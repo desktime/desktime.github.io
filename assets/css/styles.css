@@ -1,0 +1,66 @@
+body {
+  background-color:#F0F0EB;
+  font-family:'Campton Book', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size:18px;
+  color:#1E3746;
+  line-height:1.5;
+}
+
+h1 {
+  font-family:'Campton Bold', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight:700;
+  font-size:48px;
+}
+
+p {
+  font-family:'Lyon Text', Georgia, Times New Roman, Times, serif;
+  font-weight:400;
+}
+
+.campton-medium {
+  font-family:'Campton Medium', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight:500;
+}
+
+.letter-spacing {
+  letter-spacing:1px;
+}
+
+.intro {
+  background-color:#1E3746;
+  color:#FFFFFF;
+}
+
+.sponsor {
+  opacity:0.5;
+  transition:opacity 0.125s ease-in-out;
+  -moz-transition:opacity 0.125s ease-in-out;
+  -webkit-transition:opacity 0.125s ease-in-out;
+}
+
+.sponsor-rev {
+  opacity:1;
+  transition:opacity 0.125s ease-in-out;
+  -moz-transition:opacity 0.125s ease-in-out;
+  -webkit-transition:opacity 0.125s ease-in-out;
+}
+
+.sponsor:hover {
+  opacity:1;
+  transition:opacity 0.125s ease-in-out;
+  -moz-transition:opacity 0.125s ease-in-out;
+  -webkit-transition:opacity 0.125s ease-in-out;
+}
+
+.sponsor-rev:hover {
+  opacity:0.5;
+  transition:opacity 0.125s ease-in-out;
+  -moz-transition:opacity 0.125s ease-in-out;
+  -webkit-transition:opacity 0.125s ease-in-out;
+}
+
+.col-centered {
+  float:none;
+  margin:0 auto;
+}
+
